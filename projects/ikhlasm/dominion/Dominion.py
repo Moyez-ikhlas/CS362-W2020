@@ -480,8 +480,8 @@ class Player():
         return 70*balance / len(self.stack())
 
     def cardsummary(self):
-        summary = {}
-        for c in self.stack():
+        summary = {}        # summary is an empty dictionary
+        for c in self.stack():      # for each element in stack list put in dictionary with player name as key
             if c.name in summary:
                 summary[c.name] += 1
             else:
@@ -739,6 +739,7 @@ def totalbuypower(cardlist):
         if c.category == "action":
             TBP += c.coins
     return TBP
+
 
 def cardsummaries(players):
     cardsums={}

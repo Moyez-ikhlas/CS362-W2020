@@ -8,9 +8,12 @@ Created on Tue Jan 26 15:42:42 2020
 import Dominion
 import random
 from collections import defaultdict
+import testUtility as tu
+
 
 #Get player names
-player_names = ["Annie","*Ben","*Carla"]
+player_names = tu.get_player_names()
+
 
 #number of curses and victory cards
 if len(player_names)>2:
