@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 13 15:42:42 2015
+Created on Tue Jan 26 15:42:42 2020
 
-@author: tfleck
+@author: Moyez Ikhlas
 """
 
 import Dominion
