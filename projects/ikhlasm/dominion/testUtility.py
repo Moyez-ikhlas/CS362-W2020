@@ -27,7 +27,7 @@ def get_nc_nv(player_names):
     return nC, nV
 
 # Define box
-def get_box():
+def get_box(nV):
     box = {}
     box["Woodcutter"] = [Dominion.Woodcutter()] * 10
     box["Smithy"] = [Dominion.Smithy()] * 10
